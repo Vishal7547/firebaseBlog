@@ -1,0 +1,44 @@
+.comment-section {
+    margin-top: 20px;
+}
+
+.comment-section h2 {
+    font-size: 24px;
+}
+
+.comment-section textarea {
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 5px;
+    resize: vertical;
+}
+
+.comment-section button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 8px 15px;
+    cursor: pointer;
+}
+
+.comment-section button:hover {
+    background-color: #0056b3;
+}
+
+.comment-section ul {
+    list-style: none;
+    margin-top: 10px;
+    padding: 0;
+}
+
+.comment-section li {
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+    .comment-section textarea {
+        padding: 5px;
+    }
+}
